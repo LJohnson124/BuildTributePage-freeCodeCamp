@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;575;700&display=swap");
+
+body {
+  background-color: #fcd9ff;
+  text-align: center;
+  color: white;
+}
+
+main {
+  font-family: "Manrope", helvetica;
+  font-weight: 500;
+  background-color: #f57fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #d400f5;
+  padding: 15px;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li a {
+  color: white;
+  padding: 10px;
+  /*  text-decoration: none;   */
+}
+
+#wiki-link a {
+  color: #0068ff;
+}
+
+a:hover {
+  color: #0068ff;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+  font-weight: 575;
+}
+
+@media (max-width) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: #fbccff;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+figcaption {
+  display: block;
+}
+
+.container {
+  display: block;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+#introduction p {
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+}
+
+p,
+ul {
+  font-size: 16px;
+}
+
+#tribute-info ul {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto 20px auto;
+}
+
+#songs {
+  max-width: 500px;
+  margin: 0 auto 20px auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#songs ul {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto 20px auto;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 20px auto;
+  text-align: left;
+}
+
+#wiki-link {
+  text-transform: none;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
